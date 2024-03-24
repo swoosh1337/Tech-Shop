@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { ShopContext } from "../../context/shop-context";
 import { IProduct } from "../../models/interfaces";
 
@@ -15,7 +15,7 @@ export const Product = (props: Props) => {
 
   return (
     <div className="product">
-      <img src={imageURL} />
+      <img src={imageURL} alt="product-img" />
       <div className="description">
         <h3>{productName}</h3>
         <p>{description}</p>

@@ -1,7 +1,5 @@
-import { useEffect, useState } from "react";
 import { useCookies } from "react-cookie";
 import { Navigate } from "react-router-dom";
-import axios from "axios";
 import { Product } from "./product";
 
 import "./styles.css";

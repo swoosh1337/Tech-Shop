@@ -1,7 +1,7 @@
-import { ReactNode, createContext, useEffect, useState } from "react";
+import {createContext, useEffect, useState } from "react";
 import { useGetProducts } from "../hooks/useGetProducts";
 import { IProduct } from "../models/interfaces";
-import axios, { AxiosError, AxiosResponse } from "axios";
+import axios from "axios";
 import { ProductErrors } from "../models/errors";
 import { useNavigate } from "react-router-dom";
 import { useCookies } from "react-cookie";
