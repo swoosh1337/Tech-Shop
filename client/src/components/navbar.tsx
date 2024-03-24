@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import { useContext } from "react";
 import { IShopContext, ShopContext } from "../context/shop-context";
-import { useCookies } from "react-cookie";
 
 export const Navbar = () => {
   const { availableMoney, isAuthenticated, setIsAuthenticated } =
@@ -26,7 +25,7 @@ export const Navbar = () => {
             <Link to="/checkout">
               <FontAwesomeIcon icon={faShoppingCart} />
             </Link>
-            <Link to="/auth" onClick={logout}>
+            <Link to="/auth/login" onClick={logout}>
               Logout
             </Link>
             <span> ${availableMoney.toFixed(2)} </span>
