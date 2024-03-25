@@ -2,15 +2,12 @@ https://heroic-manatee-e450b2.netlify.app/
 
 # Tech Shop Project
 
-Tech Shop is an eCommerce platform built with the MERN stack as a showcase of full-stack development capabilities. The project leverages React for the frontend, Node.js and Express for the backend, and MongoDB for the database. It includes a rich set of features including a shopping cart, product listings, and user authentication. The UI is enhanced with Material-UI components for a modern look and feel, and Stripe integration for secure payment processing.
+Tech Shop is an eCommerce platform built with the MERN stack as a practice and learning experience of full-stack development. The project leverages React for the frontend, Node.js and Express for the backend, and MongoDB for the database. It includes a set of features including a shopping cart, product listings, and user authentication. The UI is enhanced with Material-UI components for a modern look and feel, and Stripe integration for secure payment processing.
 
 ## Features
 
-- Full eCommerce functionality
-- Product listings with search and filter capabilities
 - Shopping cart system
 - User authentication and account management
-- Responsive Material-UI design
 - Secure payment handling with Stripe
 
 ## Technologies
